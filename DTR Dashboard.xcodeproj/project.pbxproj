@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA2250FC1BE3EBDE00111E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2250FB1BE3EBDE00111E00 /* AppDelegate.swift */; };
+		AA2250FE1BE3EBDE00111E00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2250FD1BE3EBDE00111E00 /* ViewController.swift */; };
+		AA2251001BE3EBDE00111E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2250FF1BE3EBDE00111E00 /* Assets.xcassets */; };
+		AA2251031BE3EBDE00111E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2251011BE3EBDE00111E00 /* Main.storyboard */; };
+		AA22510E1BE3EBDE00111E00 /* DTR_DashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22510D1BE3EBDE00111E00 /* DTR_DashboardTests.swift */; };
+		AA2251191BE3EBDE00111E00 /* DTR_DashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2251181BE3EBDE00111E00 /* DTR_DashboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA22510A1BE3EBDE00111E00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA2250F01BE3EBDE00111E00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2250F71BE3EBDE00111E00;
+			remoteInfo = "DTR Dashboard";
+		};
+		AA2251151BE3EBDE00111E00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA2250F01BE3EBDE00111E00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2250F71BE3EBDE00111E00;
+			remoteInfo = "DTR Dashboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA2250F81BE3EBDE00111E00 /* DTR Dashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DTR Dashboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2250FB1BE3EBDE00111E00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA2250FD1BE3EBDE00111E00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA2250FF1BE3EBDE00111E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA2251021BE3EBDE00111E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA2251041BE3EBDE00111E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2251091BE3EBDE00111E00 /* DTR DashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DTR DashboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA22510D1BE3EBDE00111E00 /* DTR_DashboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTR_DashboardTests.swift; sourceTree = "<group>"; };
+		AA22510F1BE3EBDE00111E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2251141BE3EBDE00111E00 /* DTR DashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DTR DashboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2251181BE3EBDE00111E00 /* DTR_DashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTR_DashboardUITests.swift; sourceTree = "<group>"; };
+		AA22511A1BE3EBDE00111E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA2250F51BE3EBDE00111E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2251061BE3EBDE00111E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2251111BE3EBDE00111E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA2250EF1BE3EBDE00111E00 = {
+			isa = PBXGroup;
+			children = (
+				AA2250FA1BE3EBDE00111E00 /* DTR Dashboard */,
+				AA22510C1BE3EBDE00111E00 /* DTR DashboardTests */,
+				AA2251171BE3EBDE00111E00 /* DTR DashboardUITests */,
+				AA2250F91BE3EBDE00111E00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA2250F91BE3EBDE00111E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2250F81BE3EBDE00111E00 /* DTR Dashboard.app */,
+				AA2251091BE3EBDE00111E00 /* DTR DashboardTests.xctest */,
+				AA2251141BE3EBDE00111E00 /* DTR DashboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA2250FA1BE3EBDE00111E00 /* DTR Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				AA2250FB1BE3EBDE00111E00 /* AppDelegate.swift */,
+				AA2250FD1BE3EBDE00111E00 /* ViewController.swift */,
+				AA2250FF1BE3EBDE00111E00 /* Assets.xcassets */,
+				AA2251011BE3EBDE00111E00 /* Main.storyboard */,
+				AA2251041BE3EBDE00111E00 /* Info.plist */,
+			);
+			path = "DTR Dashboard";
+			sourceTree = "<group>";
+		};
+		AA22510C1BE3EBDE00111E00 /* DTR DashboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA22510D1BE3EBDE00111E00 /* DTR_DashboardTests.swift */,
+				AA22510F1BE3EBDE00111E00 /* Info.plist */,
+			);
+			path = "DTR DashboardTests";
+			sourceTree = "<group>";
+		};
+		AA2251171BE3EBDE00111E00 /* DTR DashboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA2251181BE3EBDE00111E00 /* DTR_DashboardUITests.swift */,
+				AA22511A1BE3EBDE00111E00 /* Info.plist */,
+			);
+			path = "DTR DashboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA2250F71BE3EBDE00111E00 /* DTR Dashboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA22511D1BE3EBDE00111E00 /* Build configuration list for PBXNativeTarget "DTR Dashboard" */;
+			buildPhases = (
+				AA2250F41BE3EBDE00111E00 /* Sources */,
+				AA2250F51BE3EBDE00111E00 /* Frameworks */,
+				AA2250F61BE3EBDE00111E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DTR Dashboard";
+			productName = "DTR Dashboard";
+			productReference = AA2250F81BE3EBDE00111E00 /* DTR Dashboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA2251081BE3EBDE00111E00 /* DTR DashboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2251201BE3EBDE00111E00 /* Build configuration list for PBXNativeTarget "DTR DashboardTests" */;
+			buildPhases = (
+				AA2251051BE3EBDE00111E00 /* Sources */,
+				AA2251061BE3EBDE00111E00 /* Frameworks */,
+				AA2251071BE3EBDE00111E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA22510B1BE3EBDE00111E00 /* PBXTargetDependency */,
+			);
+			name = "DTR DashboardTests";
+			productName = "DTR DashboardTests";
+			productReference = AA2251091BE3EBDE00111E00 /* DTR DashboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA2251131BE3EBDE00111E00 /* DTR DashboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2251231BE3EBDE00111E00 /* Build configuration list for PBXNativeTarget "DTR DashboardUITests" */;
+			buildPhases = (
+				AA2251101BE3EBDE00111E00 /* Sources */,
+				AA2251111BE3EBDE00111E00 /* Frameworks */,
+				AA2251121BE3EBDE00111E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA2251161BE3EBDE00111E00 /* PBXTargetDependency */,
+			);
+			name = "DTR DashboardUITests";
+			productName = "DTR DashboardUITests";
+			productReference = AA2251141BE3EBDE00111E00 /* DTR DashboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA2250F01BE3EBDE00111E00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = aspin;
+				TargetAttributes = {
+					AA2250F71BE3EBDE00111E00 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					AA2251081BE3EBDE00111E00 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AA2250F71BE3EBDE00111E00;
+					};
+					AA2251131BE3EBDE00111E00 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AA2250F71BE3EBDE00111E00;
+					};
+				};
+			};
+			buildConfigurationList = AA2250F31BE3EBDE00111E00 /* Build configuration list for PBXProject "DTR Dashboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA2250EF1BE3EBDE00111E00;
+			productRefGroup = AA2250F91BE3EBDE00111E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA2250F71BE3EBDE00111E00 /* DTR Dashboard */,
+				AA2251081BE3EBDE00111E00 /* DTR DashboardTests */,
+				AA2251131BE3EBDE00111E00 /* DTR DashboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA2250F61BE3EBDE00111E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2251001BE3EBDE00111E00 /* Assets.xcassets in Resources */,
+				AA2251031BE3EBDE00111E00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2251071BE3EBDE00111E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2251121BE3EBDE00111E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA2250F41BE3EBDE00111E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2250FE1BE3EBDE00111E00 /* ViewController.swift in Sources */,
+				AA2250FC1BE3EBDE00111E00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2251051BE3EBDE00111E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA22510E1BE3EBDE00111E00 /* DTR_DashboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2251101BE3EBDE00111E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2251191BE3EBDE00111E00 /* DTR_DashboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA22510B1BE3EBDE00111E00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2250F71BE3EBDE00111E00 /* DTR Dashboard */;
+			targetProxy = AA22510A1BE3EBDE00111E00 /* PBXContainerItemProxy */;
+		};
+		AA2251161BE3EBDE00111E00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2250F71BE3EBDE00111E00 /* DTR Dashboard */;
+			targetProxy = AA2251151BE3EBDE00111E00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA2251011BE3EBDE00111E00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA2251021BE3EBDE00111E00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA22511B1BE3EBDE00111E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA22511C1BE3EBDE00111E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA22511E1BE3EBDE00111E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "DTR Dashboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspin.DTR-Dashboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA22511F1BE3EBDE00111E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "DTR Dashboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspin.DTR-Dashboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA2251211BE3EBDE00111E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "DTR DashboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspin.DTR-DashboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTR Dashboard.app/Contents/MacOS/DTR Dashboard";
+			};
+			name = Debug;
+		};
+		AA2251221BE3EBDE00111E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "DTR DashboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspin.DTR-DashboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTR Dashboard.app/Contents/MacOS/DTR Dashboard";
+			};
+			name = Release;
+		};
+		AA2251241BE3EBDE00111E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "DTR DashboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspin.DTR-DashboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DTR Dashboard";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AA2251251BE3EBDE00111E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "DTR DashboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspin.DTR-DashboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DTR Dashboard";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA2250F31BE3EBDE00111E00 /* Build configuration list for PBXProject "DTR Dashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA22511B1BE3EBDE00111E00 /* Debug */,
+				AA22511C1BE3EBDE00111E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA22511D1BE3EBDE00111E00 /* Build configuration list for PBXNativeTarget "DTR Dashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA22511E1BE3EBDE00111E00 /* Debug */,
+				AA22511F1BE3EBDE00111E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA2251201BE3EBDE00111E00 /* Build configuration list for PBXNativeTarget "DTR DashboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2251211BE3EBDE00111E00 /* Debug */,
+				AA2251221BE3EBDE00111E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA2251231BE3EBDE00111E00 /* Build configuration list for PBXNativeTarget "DTR DashboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2251241BE3EBDE00111E00 /* Debug */,
+				AA2251251BE3EBDE00111E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA2250F01BE3EBDE00111E00 /* Project object */;
+}
